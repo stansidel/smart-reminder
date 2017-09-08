@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C5B07BA1F624F600020E895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07B91F624F600020E895 /* AppDelegate.swift */; };
+		2C5B07BC1F624F600020E895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07BB1F624F600020E895 /* ViewController.swift */; };
+		2C5B07BF1F624F600020E895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07BD1F624F600020E895 /* Main.storyboard */; };
+		2C5B07C21F624F600020E895 /* Smart_Notifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07C01F624F600020E895 /* Smart_Notifier.xcdatamodeld */; };
+		2C5B07C41F624F600020E895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07C31F624F600020E895 /* Assets.xcassets */; };
+		2C5B07C71F624F600020E895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07C51F624F600020E895 /* LaunchScreen.storyboard */; };
+		2C5B07D21F624F600020E895 /* Smart_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07D11F624F600020E895 /* Smart_NotifierTests.swift */; };
+		2C5B07DD1F624F600020E895 /* Smart_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07DC1F624F600020E895 /* Smart_NotifierUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C5B07CE1F624F600020E895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5B07AE1F624F600020E895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5B07B51F624F600020E895;
+			remoteInfo = "Smart Notifier";
+		};
+		2C5B07D91F624F600020E895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5B07AE1F624F600020E895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C5B07B51F624F600020E895;
+			remoteInfo = "Smart Notifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C5B07B61F624F600020E895 /* Smart Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B07B91F624F600020E895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C5B07BB1F624F600020E895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C5B07BE1F624F600020E895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5B07C11F624F600020E895 /* Smart_Notifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Notifier.xcdatamodel; sourceTree = "<group>"; };
+		2C5B07C31F624F600020E895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5B07C61F624F600020E895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C5B07C81F624F600020E895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B07CD1F624F600020E895 /* Smart NotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart NotifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B07D11F624F600020E895 /* Smart_NotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_NotifierTests.swift; sourceTree = "<group>"; };
+		2C5B07D31F624F600020E895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B07D81F624F600020E895 /* Smart NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5B07DC1F624F600020E895 /* Smart_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_NotifierUITests.swift; sourceTree = "<group>"; };
+		2C5B07DE1F624F600020E895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5B07B31F624F600020E895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07CA1F624F600020E895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07D51F624F600020E895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5B07AD1F624F600020E895 = {
+			isa = PBXGroup;
+			children = (
+				2C5B07B81F624F600020E895 /* Smart Notifier */,
+				2C5B07D01F624F600020E895 /* Smart NotifierTests */,
+				2C5B07DB1F624F600020E895 /* Smart NotifierUITests */,
+				2C5B07B71F624F600020E895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5B07B71F624F600020E895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07B61F624F600020E895 /* Smart Notifier.app */,
+				2C5B07CD1F624F600020E895 /* Smart NotifierTests.xctest */,
+				2C5B07D81F624F600020E895 /* Smart NotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5B07B81F624F600020E895 /* Smart Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07B91F624F600020E895 /* AppDelegate.swift */,
+				2C5B07BB1F624F600020E895 /* ViewController.swift */,
+				2C5B07BD1F624F600020E895 /* Main.storyboard */,
+				2C5B07C31F624F600020E895 /* Assets.xcassets */,
+				2C5B07C51F624F600020E895 /* LaunchScreen.storyboard */,
+				2C5B07C81F624F600020E895 /* Info.plist */,
+				2C5B07C01F624F600020E895 /* Smart_Notifier.xcdatamodeld */,
+			);
+			path = "Smart Notifier";
+			sourceTree = "<group>";
+		};
+		2C5B07D01F624F600020E895 /* Smart NotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07D11F624F600020E895 /* Smart_NotifierTests.swift */,
+				2C5B07D31F624F600020E895 /* Info.plist */,
+			);
+			path = "Smart NotifierTests";
+			sourceTree = "<group>";
+		};
+		2C5B07DB1F624F600020E895 /* Smart NotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07DC1F624F600020E895 /* Smart_NotifierUITests.swift */,
+				2C5B07DE1F624F600020E895 /* Info.plist */,
+			);
+			path = "Smart NotifierUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5B07B51F624F600020E895 /* Smart Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B07E11F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart Notifier" */;
+			buildPhases = (
+				2C5B07B21F624F600020E895 /* Sources */,
+				2C5B07B31F624F600020E895 /* Frameworks */,
+				2C5B07B41F624F600020E895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Notifier";
+			productName = "Smart Notifier";
+			productReference = 2C5B07B61F624F600020E895 /* Smart Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5B07CC1F624F600020E895 /* Smart NotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B07E41F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierTests" */;
+			buildPhases = (
+				2C5B07C91F624F600020E895 /* Sources */,
+				2C5B07CA1F624F600020E895 /* Frameworks */,
+				2C5B07CB1F624F600020E895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5B07CF1F624F600020E895 /* PBXTargetDependency */,
+			);
+			name = "Smart NotifierTests";
+			productName = "Smart NotifierTests";
+			productReference = 2C5B07CD1F624F600020E895 /* Smart NotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C5B07D71F624F600020E895 /* Smart NotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5B07E71F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierUITests" */;
+			buildPhases = (
+				2C5B07D41F624F600020E895 /* Sources */,
+				2C5B07D51F624F600020E895 /* Frameworks */,
+				2C5B07D61F624F600020E895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C5B07DA1F624F600020E895 /* PBXTargetDependency */,
+			);
+			name = "Smart NotifierUITests";
+			productName = "Smart NotifierUITests";
+			productReference = 2C5B07D81F624F600020E895 /* Smart NotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5B07AE1F624F600020E895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Stanislav Sidelnikov";
+				TargetAttributes = {
+					2C5B07B51F624F600020E895 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+					};
+					2C5B07CC1F624F600020E895 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C5B07B51F624F600020E895;
+					};
+					2C5B07D71F624F600020E895 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5C9TGFA48W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C5B07B51F624F600020E895;
+					};
+				};
+			};
+			buildConfigurationList = 2C5B07B11F624F600020E895 /* Build configuration list for PBXProject "Smart Notifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5B07AD1F624F600020E895;
+			productRefGroup = 2C5B07B71F624F600020E895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5B07B51F624F600020E895 /* Smart Notifier */,
+				2C5B07CC1F624F600020E895 /* Smart NotifierTests */,
+				2C5B07D71F624F600020E895 /* Smart NotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5B07B41F624F600020E895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B07C71F624F600020E895 /* LaunchScreen.storyboard in Resources */,
+				2C5B07C41F624F600020E895 /* Assets.xcassets in Resources */,
+				2C5B07BF1F624F600020E895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07CB1F624F600020E895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07D61F624F600020E895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5B07B21F624F600020E895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B07BC1F624F600020E895 /* ViewController.swift in Sources */,
+				2C5B07C21F624F600020E895 /* Smart_Notifier.xcdatamodeld in Sources */,
+				2C5B07BA1F624F600020E895 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07C91F624F600020E895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B07D21F624F600020E895 /* Smart_NotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5B07D41F624F600020E895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5B07DD1F624F600020E895 /* Smart_NotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C5B07CF1F624F600020E895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5B07B51F624F600020E895 /* Smart Notifier */;
+			targetProxy = 2C5B07CE1F624F600020E895 /* PBXContainerItemProxy */;
+		};
+		2C5B07DA1F624F600020E895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C5B07B51F624F600020E895 /* Smart Notifier */;
+			targetProxy = 2C5B07D91F624F600020E895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C5B07BD1F624F600020E895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5B07BE1F624F600020E895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5B07C51F624F600020E895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5B07C61F624F600020E895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C5B07DF1F624F600020E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5B07E01F624F600020E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5B07E21F624F600020E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C5B07E31F624F600020E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart Notifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-Notifier";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C5B07E51F624F600020E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Notifier.app/Smart Notifier";
+			};
+			name = Debug;
+		};
+		2C5B07E61F624F600020E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart NotifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-NotifierTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Notifier.app/Smart Notifier";
+			};
+			name = Release;
+		};
+		2C5B07E81F624F600020E895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smart Notifier";
+			};
+			name = Debug;
+		};
+		2C5B07E91F624F600020E895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart NotifierUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-NotifierUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Smart Notifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5B07B11F624F600020E895 /* Build configuration list for PBXProject "Smart Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B07DF1F624F600020E895 /* Debug */,
+				2C5B07E01F624F600020E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5B07E11F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B07E21F624F600020E895 /* Debug */,
+				2C5B07E31F624F600020E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C5B07E41F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B07E51F624F600020E895 /* Debug */,
+				2C5B07E61F624F600020E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2C5B07E71F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5B07E81F624F600020E895 /* Debug */,
+				2C5B07E91F624F600020E895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C5B07C01F624F600020E895 /* Smart_Notifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C5B07C11F624F600020E895 /* Smart_Notifier.xcdatamodel */,
+			);
+			currentVersion = 2C5B07C11F624F600020E895 /* Smart_Notifier.xcdatamodel */;
+			path = Smart_Notifier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C5B07AE1F624F600020E895 /* Project object */;
+}
