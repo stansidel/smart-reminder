@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NotificationsListViewController.swift
 //  Smart Notifier
 //
 //  Created by Stanislav Sidelnikov on 9/8/17.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NotificationsListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +21,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // MARK: - Private
+    @IBOutlet private weak var tableView: UITableView!
 }
-

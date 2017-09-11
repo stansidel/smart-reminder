@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2C5B07BA1F624F600020E895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07B91F624F600020E895 /* AppDelegate.swift */; };
-		2C5B07BC1F624F600020E895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07BB1F624F600020E895 /* ViewController.swift */; };
 		2C5B07BF1F624F600020E895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07BD1F624F600020E895 /* Main.storyboard */; };
 		2C5B07C21F624F600020E895 /* Smart_Notifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07C01F624F600020E895 /* Smart_Notifier.xcdatamodeld */; };
 		2C5B07C41F624F600020E895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07C31F624F600020E895 /* Assets.xcassets */; };
 		2C5B07C71F624F600020E895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5B07C51F624F600020E895 /* LaunchScreen.storyboard */; };
 		2C5B07D21F624F600020E895 /* Smart_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07D11F624F600020E895 /* Smart_NotifierTests.swift */; };
 		2C5B07DD1F624F600020E895 /* Smart_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07DC1F624F600020E895 /* Smart_NotifierUITests.swift */; };
+		2C5B07EE1F6254090020E895 /* SmartNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07ED1F6254090020E895 /* SmartNotification.swift */; };
+		2C5B07F11F6254C30020E895 /* NotificationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07F01F6254C30020E895 /* NotificationsListViewController.swift */; };
+		2C5B07F31F6255A50020E895 /* NotificationsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07F21F6255A50020E895 /* NotificationsListController.swift */; };
+		2C5B07F61F6255E00020E895 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5B07F51F6255E00020E895 /* TableViewController.swift */; };
+		2EB435D0202149B990223B98 /* Pods_Smart_NotifierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D074A7789B6DBA7FCC5168A0 /* Pods_Smart_NotifierTests.framework */; };
+		789D1CE219EC641C5CC7D8E7 /* Pods_Smart_Notifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE8EAE69BC66E3D54D7E18B /* Pods_Smart_Notifier.framework */; };
+		E93F56E096E4F0967E3E3DC3 /* Pods_Smart_NotifierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C151C91F86C76D1A2D9A0C96 /* Pods_Smart_NotifierUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* Begin PBXFileReference section */
 		2C5B07B61F624F600020E895 /* Smart Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5B07B91F624F600020E895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C5B07BB1F624F600020E895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C5B07BE1F624F600020E895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C5B07C11F624F600020E895 /* Smart_Notifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Notifier.xcdatamodel; sourceTree = "<group>"; };
 		2C5B07C31F624F600020E895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,19 @@
 		2C5B07D81F624F600020E895 /* Smart NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5B07DC1F624F600020E895 /* Smart_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_NotifierUITests.swift; sourceTree = "<group>"; };
 		2C5B07DE1F624F600020E895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5B07ED1F6254090020E895 /* SmartNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartNotification.swift; sourceTree = "<group>"; };
+		2C5B07F01F6254C30020E895 /* NotificationsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsListViewController.swift; sourceTree = "<group>"; };
+		2C5B07F21F6255A50020E895 /* NotificationsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsListController.swift; sourceTree = "<group>"; };
+		2C5B07F51F6255E00020E895 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6A4B2AADCCBF79F380931668 /* Pods-Smart NotifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart NotifierTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart NotifierTests/Pods-Smart NotifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D6FE527DF80FC75CB1562E1 /* Pods-Smart NotifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart NotifierUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart NotifierUITests/Pods-Smart NotifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B1617B83CAD4340FC7E9814 /* Pods-Smart Notifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Notifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Notifier/Pods-Smart Notifier.release.xcconfig"; sourceTree = "<group>"; };
+		7DE8EAE69BC66E3D54D7E18B /* Pods_Smart_Notifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Notifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B193C29F06A263A75C666595 /* Pods-Smart Notifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Notifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Notifier/Pods-Smart Notifier.debug.xcconfig"; sourceTree = "<group>"; };
+		C151C91F86C76D1A2D9A0C96 /* Pods_Smart_NotifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_NotifierUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074A7789B6DBA7FCC5168A0 /* Pods_Smart_NotifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_NotifierTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58B56FA18E1D1BB779A341B /* Pods-Smart NotifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart NotifierUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart NotifierUITests/Pods-Smart NotifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9765F6530852615EE4407AC /* Pods-Smart NotifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart NotifierTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart NotifierTests/Pods-Smart NotifierTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789D1CE219EC641C5CC7D8E7 /* Pods_Smart_Notifier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EB435D0202149B990223B98 /* Pods_Smart_NotifierTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93F56E096E4F0967E3E3DC3 /* Pods_Smart_NotifierUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0888649DA7A149C31A8634BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8EAE69BC66E3D54D7E18B /* Pods_Smart_Notifier.framework */,
+				D074A7789B6DBA7FCC5168A0 /* Pods_Smart_NotifierTests.framework */,
+				C151C91F86C76D1A2D9A0C96 /* Pods_Smart_NotifierUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C5B07AD1F624F600020E895 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				2C5B07D01F624F600020E895 /* Smart NotifierTests */,
 				2C5B07DB1F624F600020E895 /* Smart NotifierUITests */,
 				2C5B07B71F624F600020E895 /* Products */,
+				A61C38BE4AF7B5906E173FFF /* Pods */,
+				0888649DA7A149C31A8634BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +132,9 @@
 		2C5B07B81F624F600020E895 /* Smart Notifier */ = {
 			isa = PBXGroup;
 			children = (
+				2C5B07EC1F62525C0020E895 /* Application */,
+				2C5B07EA1F6252350020E895 /* Generic */,
 				2C5B07B91F624F600020E895 /* AppDelegate.swift */,
-				2C5B07BB1F624F600020E895 /* ViewController.swift */,
 				2C5B07BD1F624F600020E895 /* Main.storyboard */,
 				2C5B07C31F624F600020E895 /* Assets.xcassets */,
 				2C5B07C51F624F600020E895 /* LaunchScreen.storyboard */,
@@ -128,6 +162,69 @@
 			path = "Smart NotifierUITests";
 			sourceTree = "<group>";
 		};
+		2C5B07EA1F6252350020E895 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07F91F6272060020E895 /* Procedures */,
+				2C5B07F41F6255C30020E895 /* Protocols */,
+				2C5B07EB1F6252500020E895 /* Model */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		2C5B07EB1F6252500020E895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07ED1F6254090020E895 /* SmartNotification.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C5B07EC1F62525C0020E895 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07EF1F6254960020E895 /* NotificationsList */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2C5B07EF1F6254960020E895 /* NotificationsList */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07F01F6254C30020E895 /* NotificationsListViewController.swift */,
+				2C5B07F21F6255A50020E895 /* NotificationsListController.swift */,
+			);
+			path = NotificationsList;
+			sourceTree = "<group>";
+		};
+		2C5B07F41F6255C30020E895 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2C5B07F51F6255E00020E895 /* TableViewController.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2C5B07F91F6272060020E895 /* Procedures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Procedures;
+			sourceTree = "<group>";
+		};
+		A61C38BE4AF7B5906E173FFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B193C29F06A263A75C666595 /* Pods-Smart Notifier.debug.xcconfig */,
+				7B1617B83CAD4340FC7E9814 /* Pods-Smart Notifier.release.xcconfig */,
+				6A4B2AADCCBF79F380931668 /* Pods-Smart NotifierTests.debug.xcconfig */,
+				F9765F6530852615EE4407AC /* Pods-Smart NotifierTests.release.xcconfig */,
+				6D6FE527DF80FC75CB1562E1 /* Pods-Smart NotifierUITests.debug.xcconfig */,
+				E58B56FA18E1D1BB779A341B /* Pods-Smart NotifierUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5B07E11F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart Notifier" */;
 			buildPhases = (
+				56DBF3AD8D1B45C66CB4B9F4 /* [CP] Check Pods Manifest.lock */,
 				2C5B07B21F624F600020E895 /* Sources */,
 				2C5B07B31F624F600020E895 /* Frameworks */,
 				2C5B07B41F624F600020E895 /* Resources */,
+				693E510FB01849CD9F0BB678 /* [CP] Embed Pods Frameworks */,
+				7A47CB16AD195E8754DEE06F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +252,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5B07E41F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierTests" */;
 			buildPhases = (
+				9379405766DA841B5BA53CB7 /* [CP] Check Pods Manifest.lock */,
 				2C5B07C91F624F600020E895 /* Sources */,
 				2C5B07CA1F624F600020E895 /* Frameworks */,
 				2C5B07CB1F624F600020E895 /* Resources */,
+				68C5CABA66DA453625E7DD86 /* [CP] Embed Pods Frameworks */,
+				59A28AB8153061CC60F1C504 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +273,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C5B07E71F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierUITests" */;
 			buildPhases = (
+				37B5B2BB73CABAE6720CB7C2 /* [CP] Check Pods Manifest.lock */,
 				2C5B07D41F624F600020E895 /* Sources */,
 				2C5B07D51F624F600020E895 /* Frameworks */,
 				2C5B07D61F624F600020E895 /* Resources */,
+				3B84D51600F9FA029355B235 /* [CP] Embed Pods Frameworks */,
+				E930C0A48DD9730A070D0775 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +366,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37B5B2BB73CABAE6720CB7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B84D51600F9FA029355B235 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart NotifierUITests/Pods-Smart NotifierUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DBF3AD8D1B45C66CB4B9F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59A28AB8153061CC60F1C504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart NotifierTests/Pods-Smart NotifierTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68C5CABA66DA453625E7DD86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart NotifierTests/Pods-Smart NotifierTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		693E510FB01849CD9F0BB678 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Notifier/Pods-Smart Notifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A47CB16AD195E8754DEE06F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Notifier/Pods-Smart Notifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9379405766DA841B5BA53CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E930C0A48DD9730A070D0775 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart NotifierUITests/Pods-Smart NotifierUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C5B07B21F624F600020E895 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5B07BC1F624F600020E895 /* ViewController.swift in Sources */,
+				2C5B07EE1F6254090020E895 /* SmartNotification.swift in Sources */,
+				2C5B07F61F6255E00020E895 /* TableViewController.swift in Sources */,
+				2C5B07F11F6254C30020E895 /* NotificationsListViewController.swift in Sources */,
 				2C5B07C21F624F600020E895 /* Smart_Notifier.xcdatamodeld in Sources */,
+				2C5B07F31F6255A50020E895 /* NotificationsListController.swift in Sources */,
 				2C5B07BA1F624F600020E895 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,12 +666,13 @@
 		};
 		2C5B07E21F624F600020E895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B193C29F06A263A75C666595 /* Pods-Smart Notifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5C9TGFA48W;
 				INFOPLIST_FILE = "Smart Notifier/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-Notifier";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.smart-reminders";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,12 +680,13 @@
 		};
 		2C5B07E31F624F600020E895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B1617B83CAD4340FC7E9814 /* Pods-Smart Notifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5C9TGFA48W;
 				INFOPLIST_FILE = "Smart Notifier/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-Notifier";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.smart-reminders";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -445,6 +694,7 @@
 		};
 		2C5B07E51F624F600020E895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4B2AADCCBF79F380931668 /* Pods-Smart NotifierTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +710,7 @@
 		};
 		2C5B07E61F624F600020E895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9765F6530852615EE4407AC /* Pods-Smart NotifierTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +726,7 @@
 		};
 		2C5B07E81F624F600020E895 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6FE527DF80FC75CB1562E1 /* Pods-Smart NotifierUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5C9TGFA48W;
@@ -489,6 +741,7 @@
 		};
 		2C5B07E91F624F600020E895 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58B56FA18E1D1BB779A341B /* Pods-Smart NotifierUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5C9TGFA48W;
@@ -520,6 +773,7 @@
 				2C5B07E31F624F600020E895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C5B07E41F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +782,7 @@
 				2C5B07E61F624F600020E895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C5B07E71F624F600020E895 /* Build configuration list for PBXNativeTarget "Smart NotifierUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +791,7 @@
 				2C5B07E91F624F600020E895 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
