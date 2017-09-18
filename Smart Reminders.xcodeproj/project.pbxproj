@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C68A8D31F6BAEC100A620FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68A8D21F6BAEC100A620FE /* AppDelegate.swift */; };
+		2C68A8D51F6BAEC100A620FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68A8D41F6BAEC100A620FE /* ViewController.swift */; };
+		2C68A8D81F6BAEC100A620FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C68A8D61F6BAEC100A620FE /* Main.storyboard */; };
+		2C68A8DA1F6BAEC100A620FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C68A8D91F6BAEC100A620FE /* Assets.xcassets */; };
+		2C68A8DD1F6BAEC100A620FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C68A8DB1F6BAEC100A620FE /* LaunchScreen.storyboard */; };
+		2C68A8E81F6BAEC200A620FE /* Smart_RemindersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68A8E71F6BAEC200A620FE /* Smart_RemindersTests.swift */; };
+		2C68A8F31F6BAEC200A620FE /* Smart_RemindersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68A8F21F6BAEC200A620FE /* Smart_RemindersUITests.swift */; };
+		6B86742961E1DBF45C6BF999 /* Pods_Smart_RemindersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6545C0D5D81DB2701ACB43 /* Pods_Smart_RemindersTests.framework */; };
+		C9E51AB492FBB766FE69D766 /* Pods_Smart_RemindersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A9C0B09AC1787F8E0352D5 /* Pods_Smart_RemindersUITests.framework */; };
+		D8C4BBF7AD9C305EE0B5FB36 /* Pods_Smart_Reminders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF38C595440E07522350184 /* Pods_Smart_Reminders.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C68A8E41F6BAEC200A620FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C68A8C71F6BAEC100A620FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C68A8CE1F6BAEC100A620FE;
+			remoteInfo = "Smart Reminders";
+		};
+		2C68A8EF1F6BAEC200A620FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C68A8C71F6BAEC100A620FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C68A8CE1F6BAEC100A620FE;
+			remoteInfo = "Smart Reminders";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F6D81CCB6BE097C6195C17 /* Pods-Smart Reminders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Reminders.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Reminders/Pods-Smart Reminders.debug.xcconfig"; sourceTree = "<group>"; };
+		2C68A8CF1F6BAEC100A620FE /* Smart Reminders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Reminders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C68A8D21F6BAEC100A620FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C68A8D41F6BAEC100A620FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C68A8D71F6BAEC100A620FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C68A8D91F6BAEC100A620FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C68A8DC1F6BAEC100A620FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C68A8DE1F6BAEC100A620FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C68A8E31F6BAEC200A620FE /* Smart RemindersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart RemindersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C68A8E71F6BAEC200A620FE /* Smart_RemindersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_RemindersTests.swift; sourceTree = "<group>"; };
+		2C68A8E91F6BAEC200A620FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C68A8EE1F6BAEC200A620FE /* Smart RemindersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart RemindersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C68A8F21F6BAEC200A620FE /* Smart_RemindersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_RemindersUITests.swift; sourceTree = "<group>"; };
+		2C68A8F41F6BAEC200A620FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304A72EE2D0B72874FE7E1D0 /* Pods-Smart RemindersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart RemindersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart RemindersTests/Pods-Smart RemindersTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CF38C595440E07522350184 /* Pods_Smart_Reminders.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Reminders.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E1555B9CBE3F67E2F843BA /* Pods-Smart Reminders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Reminders.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart Reminders/Pods-Smart Reminders.release.xcconfig"; sourceTree = "<group>"; };
+		B2DFD15ECDBEF6F61A69DD93 /* Pods-Smart RemindersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart RemindersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart RemindersTests/Pods-Smart RemindersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF6545C0D5D81DB2701ACB43 /* Pods_Smart_RemindersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_RemindersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9222FD7E7A45040B4602D29 /* Pods-Smart RemindersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart RemindersUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smart RemindersUITests/Pods-Smart RemindersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E551D69599F609DC7609A34D /* Pods-Smart RemindersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart RemindersUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smart RemindersUITests/Pods-Smart RemindersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2A9C0B09AC1787F8E0352D5 /* Pods_Smart_RemindersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_RemindersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C68A8CC1F6BAEC100A620FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C4BBF7AD9C305EE0B5FB36 /* Pods_Smart_Reminders.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8E01F6BAEC200A620FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B86742961E1DBF45C6BF999 /* Pods_Smart_RemindersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8EB1F6BAEC200A620FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E51AB492FBB766FE69D766 /* Pods_Smart_RemindersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C68A8C61F6BAEC100A620FE = {
+			isa = PBXGroup;
+			children = (
+				2C68A8D11F6BAEC100A620FE /* Smart Reminders */,
+				2C68A8E61F6BAEC200A620FE /* Smart RemindersTests */,
+				2C68A8F11F6BAEC200A620FE /* Smart RemindersUITests */,
+				2C68A8D01F6BAEC100A620FE /* Products */,
+				6D79E80C74B980ED016BE489 /* Pods */,
+				34BD254C498FD3CEA91EA968 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C68A8D01F6BAEC100A620FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C68A8CF1F6BAEC100A620FE /* Smart Reminders.app */,
+				2C68A8E31F6BAEC200A620FE /* Smart RemindersTests.xctest */,
+				2C68A8EE1F6BAEC200A620FE /* Smart RemindersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C68A8D11F6BAEC100A620FE /* Smart Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				2C68A8D21F6BAEC100A620FE /* AppDelegate.swift */,
+				2C68A8D41F6BAEC100A620FE /* ViewController.swift */,
+				2C68A8D61F6BAEC100A620FE /* Main.storyboard */,
+				2C68A8D91F6BAEC100A620FE /* Assets.xcassets */,
+				2C68A8DB1F6BAEC100A620FE /* LaunchScreen.storyboard */,
+				2C68A8DE1F6BAEC100A620FE /* Info.plist */,
+			);
+			path = "Smart Reminders";
+			sourceTree = "<group>";
+		};
+		2C68A8E61F6BAEC200A620FE /* Smart RemindersTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C68A8E71F6BAEC200A620FE /* Smart_RemindersTests.swift */,
+				2C68A8E91F6BAEC200A620FE /* Info.plist */,
+			);
+			path = "Smart RemindersTests";
+			sourceTree = "<group>";
+		};
+		2C68A8F11F6BAEC200A620FE /* Smart RemindersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C68A8F21F6BAEC200A620FE /* Smart_RemindersUITests.swift */,
+				2C68A8F41F6BAEC200A620FE /* Info.plist */,
+			);
+			path = "Smart RemindersUITests";
+			sourceTree = "<group>";
+		};
+		34BD254C498FD3CEA91EA968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF38C595440E07522350184 /* Pods_Smart_Reminders.framework */,
+				BF6545C0D5D81DB2701ACB43 /* Pods_Smart_RemindersTests.framework */,
+				F2A9C0B09AC1787F8E0352D5 /* Pods_Smart_RemindersUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D79E80C74B980ED016BE489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11F6D81CCB6BE097C6195C17 /* Pods-Smart Reminders.debug.xcconfig */,
+				80E1555B9CBE3F67E2F843BA /* Pods-Smart Reminders.release.xcconfig */,
+				B2DFD15ECDBEF6F61A69DD93 /* Pods-Smart RemindersTests.debug.xcconfig */,
+				304A72EE2D0B72874FE7E1D0 /* Pods-Smart RemindersTests.release.xcconfig */,
+				E551D69599F609DC7609A34D /* Pods-Smart RemindersUITests.debug.xcconfig */,
+				D9222FD7E7A45040B4602D29 /* Pods-Smart RemindersUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C68A8CE1F6BAEC100A620FE /* Smart Reminders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C68A8F71F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart Reminders" */;
+			buildPhases = (
+				247898B577E5137778707317 /* [CP] Check Pods Manifest.lock */,
+				2C68A8CB1F6BAEC100A620FE /* Sources */,
+				2C68A8CC1F6BAEC100A620FE /* Frameworks */,
+				2C68A8CD1F6BAEC100A620FE /* Resources */,
+				DB349E17BF8435ECA6B6766D /* [CP] Embed Pods Frameworks */,
+				EAE0C6C628EF83B68FBFD454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Reminders";
+			productName = "Smart Reminders";
+			productReference = 2C68A8CF1F6BAEC100A620FE /* Smart Reminders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C68A8E21F6BAEC200A620FE /* Smart RemindersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C68A8FA1F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart RemindersTests" */;
+			buildPhases = (
+				18B94743DF165980E1CC2E62 /* [CP] Check Pods Manifest.lock */,
+				2C68A8DF1F6BAEC200A620FE /* Sources */,
+				2C68A8E01F6BAEC200A620FE /* Frameworks */,
+				2C68A8E11F6BAEC200A620FE /* Resources */,
+				4BD7CDB337C966560E502700 /* [CP] Embed Pods Frameworks */,
+				A0DBAC093668C38738AB1196 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C68A8E51F6BAEC200A620FE /* PBXTargetDependency */,
+			);
+			name = "Smart RemindersTests";
+			productName = "Smart RemindersTests";
+			productReference = 2C68A8E31F6BAEC200A620FE /* Smart RemindersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C68A8ED1F6BAEC200A620FE /* Smart RemindersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C68A8FD1F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart RemindersUITests" */;
+			buildPhases = (
+				DB18F3C29975F936998E3C74 /* [CP] Check Pods Manifest.lock */,
+				2C68A8EA1F6BAEC200A620FE /* Sources */,
+				2C68A8EB1F6BAEC200A620FE /* Frameworks */,
+				2C68A8EC1F6BAEC200A620FE /* Resources */,
+				C57E2099EE4BFC73E8FBA185 /* [CP] Embed Pods Frameworks */,
+				4E85A668CD5557FBF9C946F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C68A8F01F6BAEC200A620FE /* PBXTargetDependency */,
+			);
+			name = "Smart RemindersUITests";
+			productName = "Smart RemindersUITests";
+			productReference = 2C68A8EE1F6BAEC200A620FE /* Smart RemindersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C68A8C71F6BAEC100A620FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Stanislav Sidelnikov";
+				TargetAttributes = {
+					2C68A8CE1F6BAEC100A620FE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					2C68A8E21F6BAEC200A620FE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C68A8CE1F6BAEC100A620FE;
+					};
+					2C68A8ED1F6BAEC200A620FE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C68A8CE1F6BAEC100A620FE;
+					};
+				};
+			};
+			buildConfigurationList = 2C68A8CA1F6BAEC100A620FE /* Build configuration list for PBXProject "Smart Reminders" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C68A8C61F6BAEC100A620FE;
+			productRefGroup = 2C68A8D01F6BAEC100A620FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C68A8CE1F6BAEC100A620FE /* Smart Reminders */,
+				2C68A8E21F6BAEC200A620FE /* Smart RemindersTests */,
+				2C68A8ED1F6BAEC200A620FE /* Smart RemindersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C68A8CD1F6BAEC100A620FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C68A8DD1F6BAEC100A620FE /* LaunchScreen.storyboard in Resources */,
+				2C68A8DA1F6BAEC100A620FE /* Assets.xcassets in Resources */,
+				2C68A8D81F6BAEC100A620FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8E11F6BAEC200A620FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8EC1F6BAEC200A620FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B94743DF165980E1CC2E62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		247898B577E5137778707317 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD7CDB337C966560E502700 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart RemindersTests/Pods-Smart RemindersTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E85A668CD5557FBF9C946F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart RemindersUITests/Pods-Smart RemindersUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0DBAC093668C38738AB1196 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart RemindersTests/Pods-Smart RemindersTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C57E2099EE4BFC73E8FBA185 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart RemindersUITests/Pods-Smart RemindersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB18F3C29975F936998E3C74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB349E17BF8435ECA6B6766D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Reminders/Pods-Smart Reminders-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAE0C6C628EF83B68FBFD454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Smart Reminders/Pods-Smart Reminders-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C68A8CB1F6BAEC100A620FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C68A8D51F6BAEC100A620FE /* ViewController.swift in Sources */,
+				2C68A8D31F6BAEC100A620FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8DF1F6BAEC200A620FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C68A8E81F6BAEC200A620FE /* Smart_RemindersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C68A8EA1F6BAEC200A620FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C68A8F31F6BAEC200A620FE /* Smart_RemindersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C68A8E51F6BAEC200A620FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C68A8CE1F6BAEC100A620FE /* Smart Reminders */;
+			targetProxy = 2C68A8E41F6BAEC200A620FE /* PBXContainerItemProxy */;
+		};
+		2C68A8F01F6BAEC200A620FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C68A8CE1F6BAEC100A620FE /* Smart Reminders */;
+			targetProxy = 2C68A8EF1F6BAEC200A620FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C68A8D61F6BAEC100A620FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C68A8D71F6BAEC100A620FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C68A8DB1F6BAEC100A620FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C68A8DC1F6BAEC100A620FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C68A8F51F6BAEC200A620FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C68A8F61F6BAEC200A620FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C68A8F81F6BAEC200A620FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F6D81CCB6BE097C6195C17 /* Pods-Smart Reminders.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart Reminders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stansidel.SmartReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C68A8F91F6BAEC200A620FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E1555B9CBE3F67E2F843BA /* Pods-Smart Reminders.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart Reminders/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stansidel.SmartReminders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C68A8FB1F6BAEC200A620FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DFD15ECDBEF6F61A69DD93 /* Pods-Smart RemindersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart RemindersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-RemindersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Reminders.app/Smart Reminders";
+			};
+			name = Debug;
+		};
+		2C68A8FC1F6BAEC200A620FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304A72EE2D0B72874FE7E1D0 /* Pods-Smart RemindersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart RemindersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-RemindersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Reminders.app/Smart Reminders";
+			};
+			name = Release;
+		};
+		2C68A8FE1F6BAEC200A620FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E551D69599F609DC7609A34D /* Pods-Smart RemindersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart RemindersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-RemindersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Reminders";
+			};
+			name = Debug;
+		};
+		2C68A8FF1F6BAEC200A620FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9222FD7E7A45040B4602D29 /* Pods-Smart RemindersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C9TGFA48W;
+				INFOPLIST_FILE = "Smart RemindersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stansidel.Smart-RemindersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Reminders";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C68A8CA1F6BAEC100A620FE /* Build configuration list for PBXProject "Smart Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C68A8F51F6BAEC200A620FE /* Debug */,
+				2C68A8F61F6BAEC200A620FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C68A8F71F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart Reminders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C68A8F81F6BAEC200A620FE /* Debug */,
+				2C68A8F91F6BAEC200A620FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C68A8FA1F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart RemindersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C68A8FB1F6BAEC200A620FE /* Debug */,
+				2C68A8FC1F6BAEC200A620FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C68A8FD1F6BAEC200A620FE /* Build configuration list for PBXNativeTarget "Smart RemindersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C68A8FE1F6BAEC200A620FE /* Debug */,
+				2C68A8FF1F6BAEC200A620FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C68A8C71F6BAEC100A620FE /* Project object */;
+}
